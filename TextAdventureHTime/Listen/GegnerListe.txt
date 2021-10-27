@@ -1,0 +1,10 @@
+﻿
+Gegner Liste:
+
+1. Gegner: 
+Sklavenhändler (alle Rassen)
+Power	:	2
+Health	:	8
+exp		:	10-20
+
+2. Gegner:

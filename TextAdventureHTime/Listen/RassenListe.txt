@@ -1,0 +1,37 @@
+﻿
+Lebendsformen Liste (Rassen):
+Overworld / Dungeon / Boss
+Common / Rare / Epic / Legendary
+
+Overworld: 
+-Common-
+1. Menschen
+2. Fisch
+3. Pflanzen
+
+-Rare-
+1. Echsen
+
+-Epic-
+1. Elfen
+
+-Legendary-
+1. Drachen
+
+
+
+Dungeon:
+-Common-
+1. Zombies
+2. Fledermäuse
+
+-Rare-
+1. Spinnen
+2. Oger
+
+-Epic-
+1.
+
+-Legendary-
+1. Spinnenkönigin
+2. Drachen
