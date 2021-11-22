@@ -620,23 +620,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jessica\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\mueller\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jessica\\source\\repos\\TextAdventureTime\\TextAdventureHTime\\TextAdventureTime.csproj",
+      "projectUniqueName": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
       "projectName": "TextAdventureTime",
-      "projectPath": "C:\\Users\\Jessica\\source\\repos\\TextAdventureTime\\TextAdventureHTime\\TextAdventureTime.csproj",
-      "packagesPath": "C:\\Users\\Jessica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jessica\\source\\repos\\TextAdventureTime\\TextAdventureHTime\\obj\\",
+      "projectPath": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
+      "packagesPath": "C:\\Users\\mueller\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jessica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mueller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -689,12 +692,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
