@@ -20,7 +20,7 @@ namespace TextAdventure
             Console.Clear();
             Console.WriteLine("  ");
             Console.WriteLine("Du stehst vor einer Großen Tür! Du berührst sie und sie öffnet sich, mit einem Knarrendem Geräusch.", 30);
-            //MainStory.soundDungeonGate.Play();
+            MainStory.soundDungeonGate.Play();
             Console.WriteLine("Du betrittst den Dungeon und die Tür schließt sich augenblicklich hinter dir.");
             Console.ReadLine();
             Console.WriteLine("  ");
@@ -33,7 +33,7 @@ namespace TextAdventure
             Console.WriteLine("(E)infach (Lv.1-10)");
             Console.WriteLine("(S)chwer  (Lv.10-20)");
             Console.WriteLine("(B)oss    (Lv.20+)");
-            //MainStory.soundDungeon.PlayLooping();
+            MainStory.soundDungeon.PlayLooping();
             string input = Console.ReadLine().ToLower();
 
             if (input == "e")
@@ -219,6 +219,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
                 while (MainStory.currentPlayer.HealthNow == 0)
@@ -229,6 +230,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
             }
@@ -260,6 +262,7 @@ namespace TextAdventure
             }
             else if (Input == "e")
             {
+                MainStory.soundDungeon.Stop();
                 MainStory.Menü();
             }
         }
@@ -430,6 +433,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
                 while (MainStory.currentPlayer.HealthNow == 0)
@@ -440,6 +444,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
             }
@@ -471,6 +476,7 @@ namespace TextAdventure
             }
             else if (Input == "e")
             {
+                MainStory.soundDungeon.Stop();
                 MainStory.Menü();
             }
         }
@@ -644,6 +650,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
                 while (MainStory.currentPlayer.HealthNow == 0)
@@ -654,6 +661,7 @@ namespace TextAdventure
                     Console.WriteLine("Etwas später befindest du dich in der Taverne.");
                     Console.ReadLine();
                     Console.Clear();
+                    MainStory.soundDungeon.Stop();
                     MainStory.Menü();
                 }
             }
@@ -685,6 +693,7 @@ namespace TextAdventure
             }
             else if (Input == "e")
             {
+                MainStory.soundDungeon.Stop();
                 MainStory.Menü();
             }
 

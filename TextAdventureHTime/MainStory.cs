@@ -22,15 +22,15 @@ namespace TextAdventure
         public static bool mainLoop = true;
 
         #region SoundPlayer
-        public static SoundPlayer soundStore = new SoundPlayer(@"C:\Users\Jessica\source\repos\TextAdventureTime\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\hm.wav"); //by AntHorny91
+        public static SoundPlayer soundStore = new SoundPlayer(@"C:\Users\mueller\Documents\GitHub\The-Shining-Knight-Novel\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\hm.wav"); //by AntHorny91
         public static SoundPlayer soundStory1;
         public static SoundPlayer soundStory2;
         public static SoundPlayer soundStory3;
-        public static SoundPlayer soundDungeon = new SoundPlayer(@"C:\Users\Jessica\source\repos\TextAdventureTime\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\DungeonMusic.wav"); //by Zane Again
+        public static SoundPlayer soundDungeon = new SoundPlayer(@"C:\Users\mueller\Documents\GitHub\The-Shining-Knight-Novel\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\DungeonMusic.wav"); //by Zane Again
         public static SoundPlayer soundPlayerStats;
 
         #region ActionSounds
-        public static SoundPlayer soundDungeonGate = new SoundPlayer(@"C:\Users\Jessica\source\repos\TextAdventureTime\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\ObjektSounds\Dungeon Door sound effect.wav");
+        public static SoundPlayer soundDungeonGate = new SoundPlayer(@"C:\Users\mueller\Documents\GitHub\The-Shining-Knight-Novel\TextAdventureHTime\bin\Debug\netcoreapp3.1\sounds\ObjektSounds\Dungeon Door sound effect.wav");
         #endregion
         #endregion
 
@@ -510,7 +510,7 @@ namespace TextAdventure
                 }
 
                 Console.WriteLine("  ");
-                Print("Bitte Spielername oder SpielerId eintragen. (id:# oder Spielername).", 30);
+                Print("Bitte SpielerId eintragen. (id:#).", 30);
                 Print("'Neu' erstellt einen neuen Spielstand!", 40);
                 Console.WriteLine("   ");
                 string[] data = Console.ReadLine().Split(':');
