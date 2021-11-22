@@ -235,8 +235,8 @@ namespace TextAdventure
                 }
             }
             Console.Clear();
-            int c = rand.Next(10, 30);
-            int s = rand.Next(20, 50);
+            int c = rand.Next(1, 5);
+            int s = rand.Next(5, 15);
             int b = rand.Next(30, 90);
             Console.Clear();
             Console.WriteLine("  ");
@@ -666,9 +666,9 @@ namespace TextAdventure
                 }
             }
             Console.Clear();
-            int c = rand.Next(10, 30);
+            int c = rand.Next(15, 35);
             int s = rand.Next(20, 50);
-            int b = rand.Next(30, 90);
+            int b = rand.Next(70, 150);
             Console.Clear();
             Console.WriteLine("  ");
             Console.WriteLine("=============================================================================");
