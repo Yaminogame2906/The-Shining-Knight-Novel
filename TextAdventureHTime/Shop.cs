@@ -59,6 +59,7 @@ namespace TextAdventure
             else if (input == "e")
             {
                 Console.Clear();
+                MainStory.soundStore.Stop();
                 MainStory.Menü();
             }
             
@@ -198,13 +199,13 @@ namespace TextAdventure
                 }
                 else if(input == "q" || input == "quit")
                 {
-                    MainStory.Quit();
                     MainStory.soundStore.Stop();
+                    MainStory.Quit();
                 }
                 else if (input == "e" || input == "exit")
                 {
-                    MainStory.Menü();
                     MainStory.soundStore.Stop();
+                    MainStory.Menü();
                 }   
             }  
         }
@@ -319,13 +320,13 @@ namespace TextAdventure
                 }
                 else if (input == "e")
                 {
-                    MainStory.Menü();
                     MainStory.soundStore.Stop();
+                    MainStory.Menü();
                 }
                 else if (input == "q")
                 {
-                    MainStory.Quit();
                     MainStory.soundStore.Stop();
+                    MainStory.Quit();
                 }
                 RunSellShop(p);
             }
@@ -484,7 +485,6 @@ namespace TextAdventure
             }
             
         }
-
         public static void MünztauschGoldzuBronze()
         {
             while (true)

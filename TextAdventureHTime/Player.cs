@@ -23,9 +23,9 @@ namespace Player_Stats
 
         #region Lootboxen
         public int Lootboxenanzahl { get; set; }
-        public int EinfacheLootbox { get; set; } = 50;
-        public int GlitzerndeLootbox { get; set; } = 2;
-        public int LeuchtendeLootbox { get; set; } = 6;
+        public int EinfacheLootbox { get; set; } = 0;
+        public int GlitzerndeLootbox { get; set; } = 0;
+        public int LeuchtendeLootbox { get; set; } = 0;
         public int ChristmasLootboxenanzahl { get; set; } = 0;
         #endregion
 
