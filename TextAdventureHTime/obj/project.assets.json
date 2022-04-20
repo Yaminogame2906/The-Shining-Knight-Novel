@@ -620,25 +620,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mueller\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
       "projectName": "TextAdventureTime",
-      "projectPath": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
-      "packagesPath": "C:\\Users\\mueller\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mueller\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\TextAdventureTime.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\The-Shining-Knight-Novel\\TextAdventureHTime\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mueller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -694,7 +694,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
