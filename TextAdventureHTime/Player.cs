@@ -95,6 +95,7 @@ namespace Player_Stats
         #region Storyswitch und Save
         //Storyswitch und Save
         public bool DemoGame { get; set; } = true; //wenn true wird bei Fortsetzen der Demobildschirm abgespielt
+        
         public bool StoryKapitel2 { get; set; } = false;
         public bool Save1Kapitel2 { get; set; } = false;
         public bool Save2Kapitel2 { get; set; } = false;
@@ -268,11 +269,15 @@ namespace Player_Stats
         {
             if (MainStory.currentPlayer.SkilltreeUse == true)
             {
-
+                Console.WriteLine("Funktioniert!");
+                Console.ReadLine();
+                MainStory.PlayerStats();
             }
             else
             {
-
+                Console.WriteLine("Du hast noch nicht genug Level erreicht für den Skillbaum!");
+                Console.ReadLine();
+                MainStory.PlayerStats();
             }
         }
         #endregion

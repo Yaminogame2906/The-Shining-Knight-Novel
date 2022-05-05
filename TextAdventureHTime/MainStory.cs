@@ -105,6 +105,11 @@ namespace TextAdventure
         #region Menü
         public static void Menü()
         {
+            if(MainStory.currentPlayer.Level >= 5)
+            {
+                MainStory.currentPlayer.SkilltreeUse = true;
+            }
+            MainStory.currentPlayer.HealthNow = MainStory.currentPlayer.Absolutehealth;
             //soundMenu.Play();
             Console.Clear();
             Console.WriteLine("///////////////////");
@@ -127,6 +132,8 @@ namespace TextAdventure
             Console.WriteLine("||   (C)redits   ||");
             Console.WriteLine("===================");
             Console.WriteLine("||    (H)ilfe    ||");
+            Console.WriteLine("===================");
+            Console.WriteLine("||  (P)assword   ||");
             Console.WriteLine("===================");
             Console.WriteLine("||     (Q)uit    ||");
             Console.WriteLine("===================");
@@ -223,6 +230,20 @@ namespace TextAdventure
             {
                 //Spielerübersicht
                 Hilfe();
+            }
+            else if (input.ToLower() == "p" || input.ToLower()== "passwort") 
+            {
+                Console.WriteLine("Tragen sie bitte eine Kombination ein.");
+                string inputcode = Console.ReadLine();
+
+                if (inputcode.ToLower() == "adventurestart")
+                {
+                    currentPlayer.DemoGame = false;
+                }
+                else
+                {
+                    Console.WriteLine("Der Code stimmt nicht mit der Datenbank überein!!!!!!");
+                }
             }
             else if (input.ToLower() == "q" || input.ToLower() == "quit")
             {

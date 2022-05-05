@@ -15,7 +15,7 @@ namespace TextAdventure
         #region LoadShop
         public static void LoadShop(Player p)
         {
-            MainStory.soundStore.PlayLooping();
+            //MainStory.soundStore.PlayLooping();
             Console.Clear();
             Console.WriteLine("   ");
             Console.WriteLine("Welchen Shop möchtest du betreten?");
