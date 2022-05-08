@@ -49,11 +49,16 @@ namespace Player_Stats
         public int Absolutehealth { get; set; } = 10;
         public int HealthNow { get; set; } = 10;
         public int AbsoluteMana { get; set; } = 10;
+
         public int ManaNow { get; set; } = 10;
         public int ManaCost { get; set; }
+        public int DungeonComplete { get; set; } = 0;
+
+        public int DungeonKills { get; set; } = 0;
+        public int DungeonDeaths { get; set; } = 0;
         #endregion
 
-        #region Skillbaum
+        #region SkillbaumWerte
         //für die berechnung die summe aller upgrades eines Skillbereichs zusammenrechnen. z.b. Ang upgrade +1, erneut upgrade +1 ist public int AngGes = 2;
         public bool SkilltreeUse { get; set; } = false;
 
@@ -95,7 +100,6 @@ namespace Player_Stats
         #region Storyswitch und Save
         //Storyswitch und Save
         public bool DemoGame { get; set; } = true; //wenn true wird bei Fortsetzen der Demobildschirm abgespielt
-        
         public bool StoryKapitel2 { get; set; } = false;
         public bool Save1Kapitel2 { get; set; } = false;
         public bool Save2Kapitel2 { get; set; } = false;
@@ -279,6 +283,18 @@ namespace Player_Stats
                 Console.ReadLine();
                 MainStory.PlayerStats();
             }
+        }
+        #endregion
+
+        #region Andere Werte
+        public static void AndereWerte()
+        {
+            Console.Clear();
+            Console.WriteLine("Getötete Monster:  " + MainStory.currentPlayer.DungeonKills);
+            Console.WriteLine("Gestorben:         " + MainStory.currentPlayer.DungeonDeaths);
+
+            Console.ReadKey();
+            MainStory.PlayerStats();
         }
         #endregion
     }

@@ -110,6 +110,7 @@ namespace TextAdventure
                 MainStory.currentPlayer.SkilltreeUse = true;
             }
             MainStory.currentPlayer.HealthNow = MainStory.currentPlayer.Absolutehealth;
+            MainStory.currentPlayer.DungeonComplete = 0;
             //soundMenu.Play();
             Console.Clear();
             Console.WriteLine("///////////////////");
@@ -377,6 +378,7 @@ namespace TextAdventure
             Console.WriteLine("(S)killbaum");
             //Console.WriteLine("(S)chwert Umbenennen");
             Console.WriteLine("(B)egleiter Umbenennen (bx)(x = der Nummer des Begleiters)");
+            Console.WriteLine("(A)ndere Werte");
             Console.WriteLine("(E)xit");
             string input = Console.ReadLine();
     
@@ -400,6 +402,10 @@ namespace TextAdventure
             {
                 Console.Clear();
                 Waffenwechsel();
+            }
+            else if (input.ToLower() == "a")
+            {
+                Player.AndereWerte();
             }
             else if (input.ToLower() == "e" || input.ToLower() == "exit")
             {

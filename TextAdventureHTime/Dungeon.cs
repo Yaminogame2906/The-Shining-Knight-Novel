@@ -220,6 +220,7 @@ namespace TextAdventure
                     Console.ReadLine();
                     Console.Clear();
                     MainStory.soundDungeon.Stop();
+                    MainStory.currentPlayer.DungeonDeaths += 1;
                     MainStory.Menü();
                 }
                 while (MainStory.currentPlayer.HealthNow == 0)
@@ -231,6 +232,7 @@ namespace TextAdventure
                     Console.ReadLine();
                     Console.Clear();
                     MainStory.soundDungeon.Stop();
+                    MainStory.currentPlayer.DungeonDeaths += 1;
                     MainStory.Menü();
                 }
             }
@@ -253,6 +255,8 @@ namespace TextAdventure
             MainStory.currentPlayer.Xp += e;
             Console.WriteLine("  ");
             Console.WriteLine("");
+            MainStory.currentPlayer.DungeonComplete += 1;
+            MainStory.currentPlayer.DungeonKills += 1;
             Console.WriteLine("(W)eiter   (E)nde");
             string Input = Console.ReadLine().ToLower();
 
